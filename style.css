@@ -1,0 +1,443 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: rgb(30, 30, 30);
+  height: 6vh;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+  position: relative;
+  color: white;
+}
+
+nav .arrows {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+}
+
+nav .appicon {
+  position: absolute;
+  right: 0;
+}
+
+.appicon img {
+  height: 5.3vh;
+  width: 5.2vh;
+  position: relative;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+}
+
+.leftbox {
+  border-radius: 10px;
+  width: 30vw;
+  height: 83vh;
+  background-color: rgb(30, 30, 30);
+  margin-top: 10px;
+}
+
+.leftbox h1 {
+  text-align: center;
+  font-size: 2.5vh;
+}
+
+.rightbox {
+  border-radius: 10px;
+  width: 70vw;
+  height: 83vh;
+  background-color: rgb(30, 30, 30);
+  margin-top: 10px;
+}
+
+.leftbox {
+  color: white;
+}
+
+.cross{
+  display: flex;
+}
+.cross img{
+  display: none;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.leftbox h3 {
+  font-size: 1.5vh;
+}
+
+.library {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.home img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.library img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.leftarrow img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.rightarrow img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.list img {
+  height: 4vh;
+  width: 4vw;
+}
+
+.lt {
+  display: flex;
+  gap: 7vw;
+}
+
+.list {
+  margin-top: 4vh;
+  background-color: black;
+  width: 90%;
+  position: relative;
+  left: 5px;
+  min-height: 35vh;
+  border-radius: 5px;
+}
+
+.rightbox h1 {
+  text-align: center;
+  color: white;
+}
+
+.rightbox .card {
+  border: 2px solid black;
+  height: 15vh;
+  width: 20vw;
+  color: white;
+  background-color: black;
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: po;
+}
+
+.rightbox .img1 {
+  height: 7vh;
+  width: 16vw;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: grey;
+  margin: 20px;
+}
+
+
+
+.img2 {
+  height: 6vh;
+  width: 20vw;
+}
+
+
+
+.player{
+  height: 15vh;
+  width: 100%;
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.playe {
+  display: flex;
+  position: relative;
+  gap: 8vh;
+}
+
+.text {
+  width: 8vh;
+  height: 2vh;
+  font-size: 3vw;
+  color: white;
+  display: flex;
+}
+.btn{
+  display: flex;
+  gap: 2vh;
+}
+.btn img{
+  height: 4vh;
+  width: 4vh;
+}
+
+.songlist {
+  display: grid;
+  gap: 1vh;
+}
+
+.ghost {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.ghost img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.tokyo img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.tokyo {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.daaku img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.daaku {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.meta img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.meta {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.daru img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.daru {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.shape {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.shape img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.l {
+  display: flex;
+  gap: 1vh;
+  border: 1px solid white;
+  width: 90%;
+  height: 3vh;
+}
+
+.l img {
+  height: 3vh;
+  width: 3vh;
+}
+
+.info {
+  color: white;
+  font-size: 2vw;
+}
+
+.i ol {
+  color: white;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 10vh 10vh 10vh;
+  grid-gap: 2vh;
+  text-align: center;
+}
+.seekbar{
+  border: 1px solid white;
+  background-color: white;
+  height: 0%;
+  width: 96%;
+  margin-top: 3vh;
+  margin-left: 1vh;
+}
+.circle{
+  height: 1vh;
+  width: 1vh;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  top: -0.5vh;
+  left: -0.2vh;
+  transition: all .3s;
+}
+.time{
+  color: white;
+}
+@media(max-width: 899px) {
+  .leftbox{
+  height: 80vh;
+  width: 80vw;
+  position: absolute;
+  left: -100%;
+  transition: all 0.2s;
+  border: 2px solid black;
+}
+.rightbox{
+  width: 95vw;
+  height: 70vh;
+  align-content: center;
+  justify-items: center;
+}
+
+.rightbox .card{
+  width: 80vw;
+  height: 50vh;
+}
+.rightbox .img1{
+  height: 25vh;
+  width: 30vh;
+}
+.hamburger{
+  display: block;
+}
+.hamburger img{
+  height: 6vh;
+  width: 6vw;
+}
+.cross img{
+ height: 6vh;
+  width: 6vw;
+  display: inherit;
+  position: absolute;
+  right: 0;
+}
+.muse{
+  height: 7vh;
+  gap: 7vh;
+}
+.muse img{
+  height: 7vh;
+  width: 7vh;
+}
+.songlist{
+  overflow: auto;
+  height: 40vh;
+}
+}
+@media (min-width: 1000px) and (max-height: 1000px){
+  .muse{
+    height: 7vh;
+    cursor: pointer;
+  }
+  .muse img{
+   height: 7vh;
+   width: 7vh;
+  }
+  .player{
+    height: 20vh;
+  }
+  .songlist{
+    overflow: auto;
+    height: 40vh;
+  }
+  .leftbox{
+    height: 70vh;
+  }
+  .rightbox{
+    height: 70vh;
+  }
+  .rightbox .card{
+    height: 25vh;
+    width: 20vh;
+    font-size: 1vh;
+    cursor: pointer;
+  }
+   .rightbox .img1{
+    height: 10vh;
+    width: 15vh;
+  }
+  .text{
+    width: 25vh; 
+    font-size: 2vh;
+  }
+  .btn{
+    width: 25vh;
+    margin-left: 35vh;
+  }
+  .time{
+    margin-left: 40vh;
+  }
+  .home{
+    cursor: pointer;
+  }
+  .library{
+    cursor: pointer;
+  }
+  .btn{
+    cursor: pointer;
+  }
+  .seekbar{
+    cursor: pointer;
+  }
+}
